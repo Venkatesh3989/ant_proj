@@ -10,9 +10,9 @@
 <body>
 
 <form:form method="POST" commandName="user">
-	<table>
+	<table bgcolor="yellow"> 
 		<tr>
-			<td>Student Name :</td>
+			<td>Name of the Student :</td>
 			<td><form:input path="name" /></td>
 		</tr>
 		<tr>
@@ -21,8 +21,8 @@
 		</tr>
 		<tr>
 			<td>Gender :</td>
-			<td><form:radiobutton path="gender" value="M" label="M" /> 
-				<form:radiobutton path="gender" value="F" label="F" /></td>
+			<td><form:radiobutton path="gender" value="M" label="Male" /> 
+				<form:radiobutton path="gender" value="F" label="Female" /></td>
 		</tr>
 		<tr>
 			<td>Country :</td>
@@ -55,7 +55,7 @@
 		</tr>
 	</table>
 
-<table width="40%" bgcolor=green" align="center" border=3>
+<table width="40%" bgcolor="pink" align="center" border=3>
 <tr>
 <td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
 </tr>
