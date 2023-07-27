@@ -11,6 +11,9 @@
 
 <form:form method="POST" commandName="user">
 	<table bgcolor="pink">
+<tr>
+<td colspan=2><center><font size=4><b>Register User Name and Password</b></font></center></td>
+</tr>
 		<tr> 
 			<td>Name of the Student:</td>
 			<td><form:input path="name" /></td>
