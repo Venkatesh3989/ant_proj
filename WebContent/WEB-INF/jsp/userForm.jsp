@@ -10,7 +10,7 @@
 <body>
 
 <form:form method="POST" commandName="user">
-	<table bgcolor="pink">
+	<table bgcolor="orange">
 		<tr> 
 			<td>Name of the Student:</td>
 			<td><form:input path="name" /></td>
