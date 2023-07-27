@@ -12,7 +12,7 @@
 <form:form method="POST" commandName="user">
 	<table bgcolor="pink">
 <tr>
-<td colspan=2><center><font size=4><b>Register User Name and Password</b></font></center></td>
+<td colspan=2><center><font size=4><b>Register for User Name and Password</b></font></center></td>
 </tr>
 		<tr> 
 			<td>Name of the Student:</td>
@@ -65,7 +65,7 @@
 		</tr>
 	</table>
 
-<table width="40%" bgcolor="blue" align="center" border=3>
+<table width="40%" bgcolor="yellow" align="center" border=3>
 <tr>
 <td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
 </tr>
