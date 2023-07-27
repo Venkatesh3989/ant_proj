@@ -10,7 +10,7 @@
 <body>
 
 <form:form method="POST" commandName="user">
-	<table bgcolor="green">
+	<table bgcolor="pink">
 		<tr> 
 			<td>Name of the Student:</td>
 			<td><form:input path="name" /></td>
@@ -19,10 +19,11 @@
 			<td>Enter User Name :</td>
                         <td><form:input path="name" /></td>
                 </tr>
+		        <td>Enter Password :</td>
 			<td><form:input path="name" /></td>
 		</tr>
 		<tr>
-			<td> Enter Password :</td>
+			<td> Confirm Password :</td>
 			<td><form:password path="password" /></td>
 		</tr>
 		<tr>
