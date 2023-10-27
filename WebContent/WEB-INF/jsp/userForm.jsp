@@ -11,7 +11,7 @@
 
 <form:form method="POST" commandName="user">
 
-	<table bgcolor="orange" align="center">
+	<table bgcolor="yellow" align="center">
 <tr>
 <td colspan=2><center><font size=4><b>Register for User Name and Password</b></font></center></td>
 </tr>
